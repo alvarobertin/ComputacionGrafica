@@ -1,0 +1,4 @@
+﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  main.cpp
+C:\Users\ajbss\OneDrive - Pontificia Universidad Javeriana Cali\U\ComputacionGrafica\GLSL_Lighting\main.cpp(93,1): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  TemplateProject.vcxproj -> C:\Users\ajbss\OneDrive - Pontificia Universidad Javeriana Cali\U\ComputacionGrafica\GLSL_Lighting\Debug\TemplateProject.exe

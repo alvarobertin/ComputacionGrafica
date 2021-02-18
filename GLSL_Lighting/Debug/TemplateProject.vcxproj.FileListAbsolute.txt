@@ -1,0 +1,2 @@
+C:\Users\ajbss\OneDrive - Pontificia Universidad Javeriana Cali\U\ComputacionGrafica\GLSL_Lighting\Debug\TemplateProject.exe
+C:\Users\ajbss\OneDrive - Pontificia Universidad Javeriana Cali\U\ComputacionGrafica\GLSL_Lighting\Debug\TemplateProject.pdb
