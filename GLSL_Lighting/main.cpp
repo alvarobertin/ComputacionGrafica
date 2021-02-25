@@ -9,6 +9,7 @@
 #include <iostream>
 #include "glsl.h"
 #include <time.h>
+#include "arbol.h"
 
 //-----------------------------------------------------------------------------
 
@@ -22,6 +23,8 @@ protected:
    clock_t time0,time1;
    float timer010;  // timer counting 0->1->0
    bool bUp;        // flag if counting up or down.
+   arbol Saman;
+   arbol Pino;
 
 
 public:
@@ -40,12 +43,42 @@ public:
       glTranslatef(0, 0, -10);
       //glRotatef(30, 0, 1, 0);
 
+
+
+
       //Centro
+      Saman.DibujarArbol(-3,0,0);
+
+      //abajo
+      Pino.DibujarArbol(0, -3, 0);
+
+      //arriba
       glPushMatrix();
-      glTranslatef(0, 0, 5);
-      glutSolidIcosahedron();
+
+        glTranslatef(0, 3, 0);
+        glBegin(GL_TRIANGLES);
+            glVertex3f(1.5, 0, 0);
+            glVertex3f(-1.5, 0, 0);
+            glVertex3f(0, 2.6, 0);
+        glEnd();
       glPopMatrix();
 
+
+
+
+      // Derecha teapot
+      glPushMatrix();
+      glTranslatef(3, 0, 0);
+      glRotatef(180, 0, 1, 0);
+      glutSolidTeapot(0.5);
+      glPopMatrix();
+
+
+
+
+      /*
+      Ejercicio Primero 
+      
       // Izquierda teapot
       glPushMatrix();
       glTranslatef(-3, 0, 0);
@@ -93,7 +126,7 @@ public:
         glVertex3f(0, 2.6, 0);
       glEnd();
       glPopMatrix();
-
+      */
          
       if (shader) shader->end();
       glutSwapBuffers();
@@ -125,6 +158,9 @@ public:
       time0 = clock();
       timer010 = 0.0f;
       bUp = true;
+
+      Saman = arbol(1);
+      Pino = arbol(2);
 
       DemoLight();
 
