@@ -1,7 +1,6 @@
 ﻿cl : command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
-  arbol.cpp
-C:\Users\ajbss\OneDrive - Pontificia Universidad Javeriana Cali\U\ComputacionGrafica\GLSL_Lighting\arbol.cpp(32,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\ajbss\OneDrive - Pontificia Universidad Javeriana Cali\U\ComputacionGrafica\GLSL_Lighting\arbol.cpp(33,26): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-C:\Users\ajbss\OneDrive - Pontificia Universidad Javeriana Cali\U\ComputacionGrafica\GLSL_Lighting\arbol.cpp(34,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
-arbol.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+  Robot.cpp
+C:\Users\ajbss\OneDrive - Pontificia Universidad Javeriana Cali\U\ComputacionGrafica\GLSL_Lighting\Robot.cpp(23,24): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\ajbss\OneDrive - Pontificia Universidad Javeriana Cali\U\ComputacionGrafica\GLSL_Lighting\Robot.cpp(42,29): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+C:\Users\ajbss\OneDrive - Pontificia Universidad Javeriana Cali\U\ComputacionGrafica\GLSL_Lighting\Robot.cpp(44,25): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
   TemplateProject.vcxproj -> C:\Users\ajbss\OneDrive - Pontificia Universidad Javeriana Cali\U\ComputacionGrafica\GLSL_Lighting\Debug\TemplateProject.exe

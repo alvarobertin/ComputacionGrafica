@@ -10,6 +10,7 @@
 #include "glsl.h"
 #include <time.h>
 #include "arbol.h"
+#include "Robot.h"
 
 //-----------------------------------------------------------------------------
 
@@ -23,8 +24,7 @@ protected:
    clock_t time0,time1;
    float timer010;  // timer counting 0->1->0
    bool bUp;        // flag if counting up or down.
-   arbol Saman;
-   arbol Pino;
+   Robot robot;
 
 
 public:
@@ -43,9 +43,17 @@ public:
       glTranslatef(0, 0, -10);
       //glRotatef(30, 0, 1, 0);
 
+      glPushMatrix();
+
+      robot.DibujarRobot();
+
+      glPopMatrix();
 
 
 
+      /*
+      * 
+      * ARBOL
       //Centro
       Saman.DibujarArbol(-3,0,0);
 
@@ -74,7 +82,7 @@ public:
       glPopMatrix();
 
 
-
+      */
 
       /*
       Ejercicio Primero 
@@ -159,8 +167,7 @@ public:
       timer010 = 0.0f;
       bUp = true;
 
-      Saman = arbol(1);
-      Pino = arbol(2);
+      robot = Robot();
 
       DemoLight();
 

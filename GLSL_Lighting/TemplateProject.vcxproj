@@ -103,6 +103,7 @@
     <ClInclude Include="glew\include\Gl\glew.h" />
     <ClInclude Include="glew\include\Gl\glxew.h" />
     <ClInclude Include="glew\include\Gl\wglew.h" />
+    <ClInclude Include="Robot.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="arbol.cpp" />
@@ -134,6 +135,7 @@
     <ClCompile Include="freeglut\source\freeglut_window.c" />
     <ClCompile Include="glew\source\glew.c" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Robot.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="freeglut\source\freeglutdll.def" />

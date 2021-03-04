@@ -75,6 +75,9 @@
     <ClInclude Include="arbol.h">
       <Filter>Clases</Filter>
     </ClInclude>
+    <ClInclude Include="Robot.h">
+      <Filter>Clases</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="glew\source\glew.c">
@@ -160,6 +163,9 @@
     </ClCompile>
     <ClCompile Include="main.cpp" />
     <ClCompile Include="arbol.cpp">
+      <Filter>Clases</Filter>
+    </ClCompile>
+    <ClCompile Include="Robot.cpp">
       <Filter>Clases</Filter>
     </ClCompile>
   </ItemGroup>
